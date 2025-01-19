@@ -26,7 +26,7 @@ jobs:
         mkdir .zig
         cd .zig
         wget -O zig.tar.xz "https://ziglang.org/builds/zig-linux-x86_64-0.14.0-dev.2837+f38d7a92c.tar.xz"
-        tar -xzvf zig.tar.xz
+        tar -xf zig.tar.xz
         rm zig.tar.xz
         mv * zig
         
